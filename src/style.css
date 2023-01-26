@@ -109,3 +109,19 @@ li:hover {
 .city-name {
   text-transform: capitalize;
 }
+
+.link-to-github {
+  margin-right: 20px;
+  padding-right: 50px;
+  padding-left: 100px;
+}
+.link-to-mail {
+  margin-left: 20px;
+  padding-right: 100px;
+  padding-left: 250px;
+}
+
+.footer {
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.13);
+}
