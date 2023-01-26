@@ -1,0 +1,111 @@
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.row {
+  opacity: 85%;
+}
+.container {
+  background-color: transparent;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.d-flex,
+.vr {
+  width: 2px;
+  color: black;
+  opacity: 0.8;
+}
+.bi-today {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+}
+.weather-description {
+  margin-top: 30px;
+}
+.today-temp {
+  font-size: 38px;
+  font-weight: 500;
+}
+.units {
+  font-size: 20px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #0f0f0f;
+  font-weight: 500;
+}
+
+.weather-details {
+  font-size: 11px;
+}
+.form-range {
+  margin-bottom: 25px;
+}
+ul {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  list-style: none;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+li {
+  padding: 30px 20px;
+  margin: 0px auto;
+  transition: all 200ms ease-in-out;
+}
+li:hover {
+  background-color: rgba(88, 43, 94, 0.075);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.cities-prediction {
+  text-align: right;
+  padding-right: 0;
+  transition: all 200ms ease-in-out;
+}
+.cities-prediction:hover {
+  font-weight: 700;
+}
+.other-places {
+  padding: 0;
+  padding-top: 15px;
+}
+.cities {
+  margin: 0;
+}
+.cities-header {
+  --bs-card-cap-bg: rgba(0, 0, 0, 0);
+}
+.input-group {
+  margin: 20px auto 0;
+
+  opacity: 85%;
+}
+.message {
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 12%;
+  padding-bottom: 10px;
+}
+
+.city-name {
+  text-transform: capitalize;
+}
